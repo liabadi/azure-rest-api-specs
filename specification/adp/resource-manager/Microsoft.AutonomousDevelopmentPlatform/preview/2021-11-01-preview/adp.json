@@ -1261,7 +1261,7 @@
           }
         },
         "endpoint": {
-          "description": "Endpoint for Data Plane requests.",
+          "description": "Endpoint URI of the DataPool",
           "type": "string",
           "readOnly": true
         },
