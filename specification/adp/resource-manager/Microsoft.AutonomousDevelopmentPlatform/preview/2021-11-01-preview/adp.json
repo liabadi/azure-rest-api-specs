@@ -1260,6 +1260,11 @@
             "modelAsString": true
           }
         },
+        "endpoint": {
+          "description": "Endpoint for Data Plane requests.",
+          "type": "string",
+          "readOnly": true
+        },
         "encryption": {
           "description": "Encryption properties of the Data Pool",
           "$ref": "../../../../../common-types/resource-management/v3/types.json#/definitions/encryptionProperties"
